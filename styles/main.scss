@@ -1,0 +1,59 @@
+/* CSS Scormy */
+/* By Pedro Jiménez https://www.linkedin.com/in/pedro-jim%C3%A9nez-castela-359490133/ */
+/* 2020 */
+
+@import 'abstracts/animations';
+// @import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'themes/palette';
+
+// @import 'components/accordion';
+@import 'components/buttons';
+// @import 'components/questions';
+// @import 'components/charts';
+// @import 'components/flip';
+// @import 'components/media';
+// @import 'components/messages';
+// @import 'components/modal';
+@import 'components/paragraphs';
+// @import 'components/slide';
+// @import 'components/quote';
+// @import 'components/spinner';
+// @import 'components/table';
+// @import 'components/timeline';
+
+// @import 'layout/footer';
+@import 'layout/boxes';
+@import 'layout/space';
+// @import 'layout/header';
+@import 'layout/nav';
+
+// @import 'pages/credits';
+@import 'pages/frontpage';
+// @import 'pages/glosary';
+// @import 'pages/initial';
+
+
+html {
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    font-size: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('../img/bg_osasuna.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+}
+

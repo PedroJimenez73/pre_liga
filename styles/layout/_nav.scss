@@ -1,0 +1,19 @@
+nav {
+    background-color: $primary-color;
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    header {
+        background-color: white;
+        padding: 1rem;
+        .logo {
+            img {
+                width: 3rem;
+            }
+        }
+
+    }
+}
